@@ -1,0 +1,24 @@
+{
+  "name": "node_module_example",
+  "version": "1.0.0",
+  "description": "A sample NodeJS Application to learn Packaging",
+  "main": "lib/index.js",
+  "bin": {"node_module_examples": "./bin/node_module_examples"},
+  "scripts": {
+    "test": "./node_modules/.bin/mocha \"test/**/*_test.js\" --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Predatorian3/node_module_example.git"
+  },
+  "author": "Phillip Dudley <Predatorian3@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Predatorian3/node_module_example/issues"
+  },
+  "homepage": "https://github.com/Predatorian3/node_module_example#readme",
+  "devDependencies": {
+    "mocha": "~5.1.1",
+    "chai": "~4.1.2"
+  }
+}

@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var stuff = require('node_module_example/lib/node_module_examples/console_example');
+
+console.log(stuff.say());
